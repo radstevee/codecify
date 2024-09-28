@@ -8,8 +8,6 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(project(":gradle-plugin"))
     implementation(project(":api"))
-}
 
-codecify {
-    enabled = false
+    implementation("com.mojang:datafixerupper:7.0.14")
 }

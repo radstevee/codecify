@@ -11,8 +11,6 @@ import org.jetbrains.kotlin.descriptors.FunctionDescriptor
 import org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor
 import org.jetbrains.kotlin.descriptors.impl.PropertyDescriptorImpl
 import org.jetbrains.kotlin.load.java.lazy.LazyJavaResolverContext
-import org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaClassDescriptor
-import org.jetbrains.kotlin.load.java.lazy.descriptors.SyntheticJavaClassDescriptor
 import org.jetbrains.kotlin.name.Name
 import org.jetbrains.kotlin.resolve.jvm.SyntheticJavaPartsProvider
 
@@ -72,7 +70,7 @@ class CodecifySyntheticJavaPartsProvider : SyntheticJavaPartsProvider {
         propertyDescriptor: PropertyDescriptorImpl,
         c: LazyJavaResolverContext
     ): PropertyDescriptorImpl {
-        return ValueFieldModifier.modifyField(thisDescriptor, propertyDescriptor) ?: propertyDescriptor
+        return ValueFieldModifier.modifyField(propertyDescriptor) ?: propertyDescriptor
     }
 
     private fun <T : FunctionDescriptor> addNonExistent(result: MutableCollection<T>, toAdd: List<T>) {
@@ -84,7 +82,7 @@ class CodecifySyntheticJavaPartsProvider : SyntheticJavaPartsProvider {
     }
 
     private fun LazyJavaResolverContext.getSyntheticParts(descriptor: ClassDescriptor): SyntheticParts {
-        if (descriptor !is LazyJavaClassDescriptor && descriptor !is SyntheticJavaClassDescriptor) return SyntheticParts.Companion.Empty
+        // (descriptor !is LazyJavaClassDescriptor && descriptor !is SyntheticJavaClassDescriptor) return SyntheticParts.Companion.Empty
         return partsCache.getOrPut(descriptor) {
             computeSyntheticParts(descriptor)
         }
@@ -92,6 +90,7 @@ class CodecifySyntheticJavaPartsProvider : SyntheticJavaPartsProvider {
 
     private fun LazyJavaResolverContext.computeSyntheticParts(descriptor: ClassDescriptor): SyntheticParts {
         val builder = SyntheticPartsBuilder()
+        error("HELLO WORLD FROM COMPUTE PARTS")
         processors.forEach { it.contribute(descriptor, builder, this) }
         return builder.build()
     }

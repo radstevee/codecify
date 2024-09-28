@@ -1,6 +1,5 @@
 package net.radstevee.codecify.gradle
 
-import com.google.auto.service.AutoService
 import net.radstevee.codecify.common.CodecifyNames
 import org.gradle.api.internal.provider.DefaultProviderFactory
 import org.gradle.api.provider.Provider
@@ -10,7 +9,6 @@ import org.jetbrains.kotlin.gradle.plugin.SubpluginArtifact
 import org.jetbrains.kotlin.gradle.plugin.SubpluginOption
 import java.util.concurrent.Callable
 
-@AutoService(KotlinCompilerPluginSupportPlugin::class)
 class CodecifyGradleSubplugin : KotlinCompilerPluginSupportPlugin {
     override fun applyToCompilation(kotlinCompilation: KotlinCompilation<*>): Provider<List<SubpluginOption>> {
         val extension = kotlinCompilation.project.extensions.findByType(CodecifyGradleExtension::class.java)
@@ -25,10 +23,10 @@ class CodecifyGradleSubplugin : KotlinCompilerPluginSupportPlugin {
     override fun getCompilerPluginId() = CodecifyNames.COMPILER_PLUGIN_ID
 
     override fun getPluginArtifact() = SubpluginArtifact(
-        groupId = "net.radstevee.codecify", artifactId = "codecify", version = "0.1.0"
+        groupId = "net.radstevee.codecify.cli", artifactId = "codecify.cli", version = "0.1.0"
     )
 
     override fun isApplicable(
         kotlinCompilation: KotlinCompilation<*>
-    ) = error("HI") // kotlinCompilation.project.plugins.any { it is CodecifyGradlePlugin }
+    ) = kotlinCompilation.project.plugins.any { it is CodecifyGradlePlugin }
 }

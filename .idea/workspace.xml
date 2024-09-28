@@ -5,33 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd9e1aa6-5d67-43f5-8627-efff6518aeec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/kotlin/Annotations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.cli/src/main/kotlin/net/radstevee/codecify/cli/CodecifyPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.common/src/main/kotlin/net/radstevee/codecify/common/CodecifyNames.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/CodecifyResolveExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/CodecifySyntheticJavaPartsProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/codegen/RecordCodecGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/CodecifyProcessor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/Processor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/SyntheticParts.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/ValueFieldModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/util/AnnotationConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/util/DescriptorUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirCodecifyRegistrar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradlePlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradleSubplugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CommandLineProcessor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/Codecs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirBlockImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirResolvedNamedReferenceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/Naming.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/AnnotationConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/CodecGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle-plugin/src/main/resources/META-INF/services/org.jetbrains.kotlin.gradle.plugin.KotlinCompilerPluginSupportPlugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.cli/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.cli/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.cli/src/main/kotlin/net/radstevee/codecify/cli/CodecifyPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.cli/src/main/kotlin/net/radstevee/codecify/cli/CodecifyPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.common/src/main/kotlin/net/radstevee/codecify/common/CodecifyNames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.common/src/main/kotlin/net/radstevee/codecify/common/CodecifyNames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/CodecifySyntheticJavaPartsProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/CodecifySyntheticJavaPartsProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/Processor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/Processor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/ValueFieldModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.k1/src/main/kotlin/net/radstevee/codecify/k1/processor/ValueFieldModifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.k2/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.k2/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirCodecifyRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirCodecifyRegistrar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradlePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradlePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradleSubplugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradleSubplugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workload/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/workload/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workload/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workload/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +76,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
                 <item name="codecify.cli" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -94,42 +88,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="codecify" type="f1a62948:ProjectNode" />
                 <item name="codecify.cli" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.common" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.k1" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.k1" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="codecify" type="f1a62948:ProjectNode" />
-                <item name="codecify.k1" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="publishing" type="c8890929:TasksNode$1" />
               </path>
@@ -179,9 +137,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -199,35 +157,44 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build codecify.executor": "Run",
-    "Gradle.codecify [publishAllPublicationsToMavenLocalRepository].executor": "Run",
-    "Gradle.codecify:api [publishToMavenLocal].executor": "Run",
-    "Gradle.codecify:api [publish].executor": "Run",
-    "Gradle.codecify:codecify.cli [publishToMavenLocal].executor": "Run",
-    "Gradle.codecify:codecify.common [publishToMavenLocal].executor": "Run",
-    "Gradle.codecify:codecify.k1 [publishToMavenLocal].executor": "Run",
-    "Gradle.codecify:gradle-plugin [publishAllPublicationsToMavenLocalRepository].executor": "Run",
-    "Gradle.codecify:gradle-plugin [publishPlugins].executor": "Run",
-    "Gradle.codecify:gradle-plugin [publishToMavenLocal].executor": "Run",
-    "Gradle.codecify:gradle-plugin [publish].executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.2580645",
-    "project.structure.side.proportion": "0.34300792",
-    "settings.editor.selected.configurable": "preferences.language.Kotlin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build codecify.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify [publishAllPublicationsToMavenLocalRepository].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:api [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:api [publish].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:codecify.cli [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:codecify.common [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:codecify.k1 [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:codecify.k2 [publishMavenPublicationToMavenLocalRepository].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:codecify.k2 [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:gradle-plugin [publishAllPublicationsToMavenLocalRepository].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:gradle-plugin [publishPlugins].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:gradle-plugin [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.codecify:gradle-plugin [publish].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/radsteve/IdeaProjects/BlockBrawl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.2580645&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34300792&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;/home/radsteve/.gradle&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="net.radstevee.codecify.k1.util" />
@@ -237,7 +204,7 @@
       <recent name="net.radstevee.net.radstevee.codecify.k1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.codecify:gradle-plugin [publishToMavenLocal]">
     <configuration name="codecify:codecify.cli [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -260,10 +227,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="codecify:codecify.common [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="codecify:codecify.k2 [publishMavenPublicationToMavenLocalRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/codecify.common" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codecify.k2" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -271,7 +238,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishToMavenLocal" />
+            <option value="publishMavenPublicationToMavenLocalRepository" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -282,10 +249,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="codecify:codecify.k1 [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="codecify:codecify.k2 [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/codecify.k1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/codecify.k2" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -348,21 +315,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.codecify:gradle-plugin [publishToMavenLocal]" />
-        <item itemvalue="Gradle.codecify:codecify.k1 [publishToMavenLocal]" />
+        <item itemvalue="Gradle.codecify:codecify.k2 [publishToMavenLocal]" />
+        <item itemvalue="Gradle.codecify:codecify.k2 [publishMavenPublicationToMavenLocalRepository]" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.codecify:codecify.cli [publishToMavenLocal]" />
-        <item itemvalue="Gradle.codecify:codecify.common [publishToMavenLocal]" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.40" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.40" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -374,6 +333,12 @@
       <updated>1725603966139</updated>
       <workItem from="1725603968135" duration="9428000" />
       <workItem from="1725613429746" duration="3241000" />
+      <workItem from="1725730603209" duration="2687000" />
+      <workItem from="1725869861598" duration="270000" />
+      <workItem from="1725870146143" duration="3378000" />
+      <workItem from="1726296770431" duration="7244000" />
+      <workItem from="1726345408382" duration="32000" />
+      <workItem from="1726386750860" duration="6000" />
     </task>
     <servers />
   </component>

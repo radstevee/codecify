@@ -1,14 +1,11 @@
 plugins {
     kotlin("jvm")
-    kotlin("kapt")
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
 group = "net.radstevee.codecify.gradle-plugin"
 
 dependencies {
-    compileOnly("com.google.auto.service:auto-service:1.0-rc4")
-    kapt("com.google.auto.service:auto-service:1.0-rc4")
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:2.0.20")
     implementation(project(":codecify.common"))
 }

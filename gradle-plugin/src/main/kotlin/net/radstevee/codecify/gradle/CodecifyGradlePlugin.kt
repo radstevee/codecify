@@ -9,6 +9,7 @@ class CodecifyGradlePlugin : Plugin<Project> {
             "codecify",
             CodecifyGradleExtension::class.java
         )
+        project.plugins.apply(CodecifyGradleSubplugin::class.java)
     }
 }
 

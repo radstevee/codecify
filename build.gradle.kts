@@ -5,6 +5,7 @@ plugins {
 allprojects {
     repositories {
         mavenCentral()
+        mavenLocal()
         maven("https://libraries.minecraft.net/")
     }
 

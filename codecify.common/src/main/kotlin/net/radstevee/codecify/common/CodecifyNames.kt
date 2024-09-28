@@ -1,9 +1,9 @@
 package net.radstevee.codecify.common
 
-import org.jetbrains.kotlin.name.FqName
+import org.jetbrains.kotlin.name.ClassId
 
 object CodecifyNames {
-    val CODEC = FqName("net.radstevee.codecify.Codec")
-    val CODECIFY = FqName("net.radstevee.codecify.Codecify")
-    const val COMPILER_PLUGIN_ID = "net.radstevee.codecify.codecify"
+    val CODEC = ClassId.fromString("net.radstevee.codecify.Codec")
+    val CODECIFY = ClassId.fromString("net.radstevee.codecify.Codecify")
+    const val COMPILER_PLUGIN_ID = "codecify"
 }
