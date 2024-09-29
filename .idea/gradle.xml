@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/api" />
             <option value="$PROJECT_DIR$/codecify.cli" />
             <option value="$PROJECT_DIR$/codecify.common" />
-            <option value="$PROJECT_DIR$/codecify.k1" />
             <option value="$PROJECT_DIR$/codecify.k2" />
             <option value="$PROJECT_DIR$/gradle-plugin" />
             <option value="$PROJECT_DIR$/workload" />

@@ -1,25 +1,12 @@
 package net.radstevee.codecify.k2.generators
 
-import net.radstevee.codecify.k2.FirBlockImpl
-import net.radstevee.codecify.k2.FirResolvedNamedReferenceImpl
-import net.radstevee.codecify.k2.RECORD_CODEC_BUILDER_CALLABLE
-import net.radstevee.codecify.k2.RECORD_CODEC_BUILDER_CREATE_FULL
 import org.jetbrains.kotlin.GeneratedDeclarationKey
 import org.jetbrains.kotlin.descriptors.ClassKind
-import org.jetbrains.kotlin.descriptors.Modality
-import org.jetbrains.kotlin.descriptors.Visibilities
 import org.jetbrains.kotlin.fir.FirImplementationDetail
 import org.jetbrains.kotlin.fir.FirSession
-import org.jetbrains.kotlin.fir.MutableOrEmptyList
 import org.jetbrains.kotlin.fir.declarations.FirDeclarationOrigin
 import org.jetbrains.kotlin.fir.declarations.builder.buildProperty
-import org.jetbrains.kotlin.fir.declarations.impl.FirDeclarationStatusImpl
 import org.jetbrains.kotlin.fir.declarations.impl.FirResolvedDeclarationStatusImpl
-import org.jetbrains.kotlin.fir.expressions.FirEmptyArgumentList
-import org.jetbrains.kotlin.fir.expressions.FirFunctionCallOrigin
-import org.jetbrains.kotlin.fir.expressions.builder.buildArgumentList
-import org.jetbrains.kotlin.fir.expressions.impl.FirFunctionCallImpl
-import org.jetbrains.kotlin.fir.expressions.impl.FirResolvedArgumentList
 import org.jetbrains.kotlin.fir.extensions.FirDeclarationGenerationExtension
 import org.jetbrains.kotlin.fir.extensions.FirDeclarationPredicateRegistrar
 import org.jetbrains.kotlin.fir.extensions.MemberGenerationContext
@@ -29,13 +16,9 @@ import org.jetbrains.kotlin.fir.extensions.predicateBasedProvider
 import org.jetbrains.kotlin.fir.moduleData
 import org.jetbrains.kotlin.fir.plugin.createCompanionObject
 import org.jetbrains.kotlin.fir.plugin.createDefaultPrivateConstructor
-import org.jetbrains.kotlin.fir.references.FirResolvedNamedReference
-import org.jetbrains.kotlin.fir.references.builder.buildResolvedNamedReference
-import org.jetbrains.kotlin.fir.references.builder.buildSimpleNamedReference
 import org.jetbrains.kotlin.fir.symbols.impl.FirClassLikeSymbol
 import org.jetbrains.kotlin.fir.symbols.impl.FirClassSymbol
 import org.jetbrains.kotlin.fir.symbols.impl.FirConstructorSymbol
-import org.jetbrains.kotlin.fir.symbols.impl.FirNamedFunctionSymbol
 import org.jetbrains.kotlin.fir.symbols.impl.FirPropertySymbol
 import org.jetbrains.kotlin.fir.symbols.impl.FirRegularClassSymbol
 import org.jetbrains.kotlin.fir.types.builder.buildDynamicTypeRef
@@ -76,27 +59,6 @@ class CodecGenerator(session: FirSession) : FirDeclarationGenerationExtension(se
                 isSuspend = false
             }
             isVar = false
-            initializer = FirBlockImpl(
-                null,
-                null,
-                MutableOrEmptyList.empty(),
-                mutableListOf(
-                    FirFunctionCallImpl(
-                        null,
-                        MutableOrEmptyList.empty(),
-                        MutableOrEmptyList.empty(),
-                        MutableOrEmptyList.empty(),
-                        null,
-                        null,
-                        null,
-                        null,
-                        MutableOrEmptyList.empty(),
-                        FirEmptyArgumentList,
-                        FirResolvedNamedReferenceImpl(null, RECORD_CODEC_BUILDER_CREATE_FULL, FirNamedFunctionSymbol(RECORD_CODEC_BUILDER_CALLABLE)),
-                        FirFunctionCallOrigin.Regular
-                    )
-                )
-            )
             isLocal = true
         }
         return listOf(prop.symbol)
