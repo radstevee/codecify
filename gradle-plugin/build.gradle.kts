@@ -7,7 +7,7 @@ group = "net.radstevee.codecify.gradle-plugin"
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:2.0.20")
-    implementation(project(":codecify.common"))
+    implementation(project(":common"))
 }
 
 gradlePlugin {

@@ -23,7 +23,7 @@ class CodecifyGradleSubplugin : KotlinCompilerPluginSupportPlugin {
     override fun getCompilerPluginId() = CodecifyNames.COMPILER_PLUGIN_ID
 
     override fun getPluginArtifact() = SubpluginArtifact(
-        groupId = "net.radstevee.codecify.cli", artifactId = "codecify.cli", version = "0.1.0"
+        groupId = "net.radstevee.codecify.cli", artifactId = "cli", version = "0.1.0"
     )
 
     override fun isApplicable(
