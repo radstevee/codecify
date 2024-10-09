@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a5674e-6ab6-45fb-9cb7-839a2f907e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/k2/src/main/kotlin/generators/FirCodecifyGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k2/src/main/kotlin/identifiers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k2/src/main/kotlin/utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workload/src/main/kotlin/test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.cli/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/cli/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.cli/src/main/kotlin/net/radstevee/codecify/cli/CodecifyPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cli/src/main/kotlin/net/radstevee/codecify/cli/CodecifyPlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CommandLineProcessor" beforeDir="false" afterPath="$PROJECT_DIR$/cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CommandLineProcessor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar" beforeDir="false" afterPath="$PROJECT_DIR$/cli/src/main/resources/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.common/src/main/kotlin/net/radstevee/codecify/common/CodecifyNames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/radstevee/codecify/common/CodecifyNames.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/k2/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/Codecs.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/FirCodecifyRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/k2/src/main/kotlin/FirCodecifyRegistrar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/Naming.kt" beforeDir="false" afterPath="$PROJECT_DIR$/k2/src/main/kotlin/naming.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/AnnotationConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/k2/src/main/kotlin/generators/AnnotationConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/CodecGenerator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecify.k2/src/main/kotlin/generators/Utils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradleSubplugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/kotlin/net/radstevee/codecify/gradle/CodecifyGradleSubplugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workload/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workload/src/main/kotlin/Main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="54a5674e-6ab6-45fb-9cb7-839a2f907e63" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +147,7 @@
       <workItem from="1728231043423" duration="6481000" />
       <workItem from="1728311612302" duration="12000" />
       <workItem from="1728491543419" duration="1271000" />
-      <workItem from="1728492892101" duration="4861000" />
+      <workItem from="1728492892101" duration="5209000" />
     </task>
     <servers />
   </component>
